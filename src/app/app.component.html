@@ -1,0 +1,27 @@
+<div class="card card-small" (click)="navigate()" tabindex="0"style = "background-color:green">
+  <svg
+    class="material-icons"
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+  >
+    <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+  </svg>
+
+  <span>Make Card Payment</span>
+</div>
+<div class="card card-large">
+  store:
+
+  {{ creditCard$ | async | json }}
+</div>
+<div class="view-container" style = "width: 600px; height: 400px; margin: auto; background-color:rgb(242, 248, 248)">
+ 
+  
+  <toaster-container [toasterconfig]="toasterConfig"></toaster-container>
+
+  <router-outlet></router-outlet>
+</div>
+
+  <div ng-view class="view-frame"></div> 

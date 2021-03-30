@@ -1,0 +1,51 @@
+.padding {
+  padding: 5rem !important;
+  margin-left: 300px
+}
+
+.card {
+  margin-bottom: 1.5rem
+}
+
+.card {
+  float:left;
+  width: 6px;
+  margin:0 auto;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color:#404142;
+  background-clip: border-box;
+  
+  border: 1px solid #e6e0e0;
+  border-radius: .25rem
+}
+
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0
+}
+
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #f0f3f5;
+  border-bottom: 1px solid #c8ced3
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem
+}
+
+.form-control:focus {
+  color: #5c6873;
+  background-color: rgb(250, 248, 248);
+  border-color: #080808 !important;
+  outline: 0;
+  box-shadow: 0 0 0 #e62323
+}
+
